@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class MoverPlayer : MonoBehaviour
@@ -7,7 +6,7 @@ public class MoverPlayer : MonoBehaviour
     private const string Vertical = "Vertical";
 
     [SerializeField] private Animator _animator;
-    [SerializeField] private float _speed = 7.0f;
+    [SerializeField] private float _speed = 5.0f;
 
     private float _inputHorizontal;
     private float _inputVertical;
